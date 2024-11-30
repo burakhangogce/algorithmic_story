@@ -11,13 +11,19 @@ class ResultPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(),
       body: SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 24),
-          child: Center(
-            child: Text(
-              controller.generateCharacterAnalysis(),
-              style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w700),
-            ),
+        child: SingleChildScrollView(
+          child: Column(
+            children: [
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 24),
+                child: Center(
+                  child: Text(
+                    controller.generateCharacterAnalysis(),
+                    style: const TextStyle(fontSize: 19, fontWeight: FontWeight.w700),
+                  ),
+                ),
+              ),
+            ],
           ),
         ),
       ),
