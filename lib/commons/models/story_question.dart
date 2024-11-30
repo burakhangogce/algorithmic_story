@@ -1,4 +1,4 @@
-import 'package:algorithmic_story/models/story_option.dart';
+import 'package:algorithmic_story/commons/models/story_option.dart';
 
 class StoryQuestion {
   final int id;

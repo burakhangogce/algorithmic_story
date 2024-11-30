@@ -1,5 +1,5 @@
-import 'package:algorithmic_story/models/story_option.dart';
-import 'package:algorithmic_story/models/story_question.dart';
+import 'package:algorithmic_story/commons/models/story_option.dart';
+import 'package:algorithmic_story/commons/models/story_question.dart';
 import 'package:algorithmic_story/modules/game/controllers/game_controller.dart';
 import 'package:algorithmic_story/modules/result/controllers/result_controller.dart';
 import 'package:algorithmic_story/modules/result/screens/result_page.dart';
@@ -7,7 +7,11 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 class GamePage extends StatelessWidget {
-  const GamePage({super.key});
+  const GamePage({
+    super.key,
+    required this.gamePath,
+  });
+  final String gamePath;
 
   @override
   Widget build(BuildContext context) {
@@ -22,21 +26,21 @@ class GamePage extends StatelessWidget {
             ),
             child: Column(
               children: [
-                const Row(
+                Row(
                   children: [
-                    Text(
+                    const Text(
                       "Hikaye Adı:",
                       style: TextStyle(
                         fontSize: 24,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       width: 12,
                     ),
                     Text(
-                      "İlk Hikaye",
-                      style: TextStyle(
+                      gamePath,
+                      style: const TextStyle(
                         fontSize: 24,
                         fontWeight: FontWeight.bold,
                       ),
@@ -47,7 +51,7 @@ class GamePage extends StatelessWidget {
                   height: 62,
                 ),
                 FutureBuilder<dynamic>(
-                  future: controller.getData(),
+                  future: controller.getData(gamePath),
                   builder: (context, snapshot) {
                     if (snapshot.connectionState != ConnectionState.done) {
                       return const Center(child: CircularProgressIndicator());

@@ -1,7 +1,9 @@
+import 'package:algorithmic_story/modules/boarding/controllers/boarding_controller.dart';
 import 'package:algorithmic_story/modules/boarding/screens/boarding_page.dart';
-import 'package:algorithmic_story/utils/theme.dart';
-import 'package:algorithmic_story/utils/util.dart';
+import 'package:algorithmic_story/commons/utils/theme.dart';
+import 'package:algorithmic_story/commons/utils/util.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 void main() {
   runApp(const MainApp());
@@ -22,7 +24,11 @@ class MainApp extends StatelessWidget {
     MaterialTheme theme = MaterialTheme(textTheme);
 
     return MaterialApp(
-      home: const BoardingPage(),
+      home: ChangeNotifierProvider(
+        create: (context) => BoardingController(),
+        child: const BoardingPage(),
+      ),
+      debugShowCheckedModeBanner: false,
       theme: brightness == Brightness.light ? theme.light() : theme.dark(),
     );
   }

@@ -1,4 +1,4 @@
-import 'package:algorithmic_story/enums/character_attribute.dart';
+import 'package:algorithmic_story/commons/enums/character_attribute.dart';
 import 'package:flutter/material.dart';
 
 class ResultController extends ChangeNotifier {
@@ -14,7 +14,6 @@ class ResultController extends ChangeNotifier {
     CharacterAttribute.economicForesight: 0,
     CharacterAttribute.independence: 0,
   };
-
   String generateCharacterAnalysis() {
     final highestAttribute = attributes.entries.reduce(
       (a, b) => a.value > b.value ? a : b,
@@ -23,44 +22,60 @@ class ResultController extends ChangeNotifier {
       (a, b) => a.value < b.value ? a : b,
     ); // En düşük attribute'u bul
 
+    final averageValue = attributes.values.reduce((a, b) => a + b) / attributes.length; // Ortalama değeri bul
+
     final analysis = StringBuffer();
 
-    analysis.writeln("### Liderlik Analiziniz ###");
-    analysis
-        .writeln("\n\nEn güçlü özelliğiniz: ${describeAttribute(highestAttribute.key)} (${highestAttribute.value})");
-    analysis.writeln(
-        "\nGeliştirilmesi gereken özelliğiniz: ${describeAttribute(lowestAttribute.key)} (${lowestAttribute.value})");
+    // Başlık
+    analysis.writeln("### Karakter Analiziniz ###\n");
 
-    // Özelliklere özel analizler
+    // Güçlü ve Zayıf Yönler
+    analysis.writeln("En güçlü özelliğiniz: ${describeAttribute(highestAttribute.key)} (${highestAttribute.value})");
+    analysis.writeln(
+        "Geliştirilmesi gereken özelliğiniz: ${describeAttribute(lowestAttribute.key)} (${lowestAttribute.value})\n");
+
+    // Genel Performans
+    if (averageValue > 5) {
+      analysis.writeln("Genel olarak oldukça dengeli ve güçlü bir karakter yapınız var.");
+    } else if (averageValue > 3) {
+      analysis.writeln("Karakteriniz ortalama seviyede dengeli. Bazı yönlerinizi geliştirmeniz faydalı olacaktır.");
+    } else {
+      analysis.writeln(
+          "Karakterinizde bazı eksikler var. Güçlü yönlerinizi artırmak için daha fazla çaba sarf etmelisiniz.");
+    }
+
+    analysis.writeln("\n### Özelliklere Göre Yorumlar ###");
+
+    // Özelliklere Göre Yorumlar
+    attributes.forEach((attribute, value) {
+      if (value > 5) {
+        analysis.writeln(
+            "- ${describeAttribute(attribute)}: Bu alanda oldukça başarılısınız ve doğal bir yeteneğiniz var.");
+      } else if (value > 3) {
+        analysis.writeln(
+            "- ${describeAttribute(attribute)}: Ortalama seviyedesiniz. Bu özelliği geliştirmek sizi daha güçlü yapabilir.");
+      } else {
+        analysis.writeln(
+            "- ${describeAttribute(attribute)}: Bu alanda eksikleriniz bulunuyor. Daha fazla çaba göstermelisiniz.");
+      }
+    });
+
+    // Attribute'ler Arasındaki İlişkiler
+    analysis.writeln("\n### Özellikler Arası İlişkiler ###");
     if (attributes[CharacterAttribute.courage]! > attributes[CharacterAttribute.diplomacy]!) {
       analysis.writeln(
-          "\nCesur bir lidersiniz! Risk almayı seviyorsunuz ve sorunlara doğrudan müdahale etmekten çekinmiyorsunuz. Ancak diplomasiye daha fazla önem vermelisiniz.");
+          "- Cesaretiniz, diplomasinizden daha yüksek. Sorunlara doğrudan müdahale etmeyi tercih ediyorsunuz, ancak daha barışçıl çözümler düşünmeyi öğrenebilirsiniz.");
     } else {
       analysis.writeln(
-          "\nDiplomatik bir lidersiniz! Sorunlara barışçıl çözümler bulmayı tercih ediyorsunuz. Ancak cesaret gerektiren durumlarda daha güçlü olmanız gerekebilir.");
+          "- Diplomasiniz, cesaretinizden daha yüksek. Barışçıl çözümler üretmede başarılısınız, ancak cesur kararlar almayı ihmal etmeyin.");
     }
 
-    if (attributes[CharacterAttribute.leadership]! > 5) {
-      analysis.writeln("Liderlik konusunda oldukça başarılısınız! Halkınız ve ordunuz sizin arkanızda duruyor.");
+    if (attributes[CharacterAttribute.strategicThinking]! > attributes[CharacterAttribute.economicForesight]!) {
+      analysis.writeln(
+          "- Stratejik düşünme yeteneğiniz ekonomik planlamadan daha baskın. Uzun vadeli hedeflerde başarılısınız, ancak kaynak yönetimine daha fazla odaklanmalısınız.");
     } else {
       analysis.writeln(
-          "\nLiderlik konusunda daha fazla çaba sarf etmelisiniz. Halkınızın ve ordunuzun desteğini kazanmak için daha fazla girişimde bulunabilirsiniz.");
-    }
-
-    if (attributes[CharacterAttribute.economicForesight]! > attributes[CharacterAttribute.strategicThinking]!) {
-      analysis.writeln(
-          "\nEkonomik planlama konusunda oldukça iyisiniz! Krallığınızın mali durumunu etkin bir şekilde yönetiyorsunuz.");
-    } else {
-      analysis.writeln(
-          "\nStratejik düşünme yeteneğiniz güçlü! Uzun vadeli planlar yaparak krallığınızın geleceğini şekillendiriyorsunuz.");
-    }
-
-    if (attributes[CharacterAttribute.independence]! > 5) {
-      analysis.writeln(
-          "\nBağımsız bir yönetim tarzınız var! Dış güçlerden etkilenmeden krallığınızı yönetmeyi tercih ediyorsunuz.");
-    } else {
-      analysis.writeln(
-          "\nİşbirlikçi bir lidersiniz! Müttefiklerinizle güçlü ilişkiler kurarak krallığınızın gücünü artırıyorsunuz.");
+          "- Ekonomik planlama yeteneğiniz stratejik düşünmeden daha güçlü. Kısa vadeli kararlarınız etkili, ancak uzun vadeli planlara odaklanmayı unutmayın.");
     }
 
     return analysis.toString();

@@ -1,0 +1,1022 @@
+[
+    {
+        "id": 1,
+        "question": "Uzay geminiz, yeni bir gezegenin yörüngesine ulaştı. İlk adımınız ne olacak?",
+        "options": [
+            {
+                "text": "Gezegenin atmosferini ve kaynaklarını analiz edin.",
+                "next_question": 2,
+                "effects": [
+                    {
+                        "attribute": 5,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 6,
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "text": "Hemen iniş yapıp gezegeni keşfetmeye başlayın.",
+                "next_question": 3,
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 5,
+                        "value": -1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "question": "Analizler sonucu gezegende hem yaşam hem de potansiyel tehlikeler olduğunu öğrendiniz. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Ekibinizle bir güvenlik protokolü oluşturun.",
+                "next_question": 4,
+                "effects": [
+                    {
+                        "attribute": 6,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 5,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Kaynaklara ulaşmak için bir keşif grubu gönderin.",
+                "next_question": 5,
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 5,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "question": "İniş yaptınız, ancak geminin enerjisi tükenmeye başladı. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Gemi çevresinde enerji kaynağı arayın.",
+                "next_question": 6,
+                "effects": [
+                    {
+                        "attribute": 5,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 6,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Ekibinizden bir grup gönderip keşfi hızlandırın.",
+                "next_question": 7,
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": -1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "question": "Güvenlik protokolü oluşturduktan sonra bilinmeyen bir yerel türle karşılaştınız. İlk tepkiniz ne olacak?",
+        "options": [
+            {
+                "text": "Yerel türle diplomatik bir ilişki kurmaya çalışın.",
+                "next_question": 8,
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "text": "Türden uzak durarak ekibinizin güvenliğini sağlayın.",
+                "next_question": 9,
+                "effects": [
+                    {
+                        "attribute": 6,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 5,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "question": "Keşif grubunuz bir enerji kaynağı buldu ancak bir doğal felaketle karşılaştı. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Keşif grubunu geri çağırın.",
+                "next_question": 10,
+                "effects": [
+                    {
+                        "attribute": 4,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 6,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Kaynağı kurtarmak için risk alarak ilerleyin.",
+                "next_question": 11,
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 5,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "question": "Enerji kaynağı ararken gemiye yakın bir yapı keşfettiniz. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Yapıyı dikkatlice inceleyin.",
+                "next_question": 12,
+                "effects": [
+                    {
+                        "attribute": 5,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 1,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Yapıdan uzak durup enerji aramaya devam edin.",
+                "next_question": 13,
+                "effects": [
+                    {
+                        "attribute": 6,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 5,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "question": "Keşif grubunun ilerlediği sırada yerel türler tarafından durduruldular. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Yerel türlerle görüşme yapmayı deneyin.",
+                "next_question": 14,
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Ekibinizi geri çekip güvenli bir alana toplayın.",
+                "next_question": 15,
+                "effects": [
+                    {
+                        "attribute": 6,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 5,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "question": "Diplomatik girişimleriniz sonuç verdi ve yerel türler size yardımcı oldu. Ancak ekipte bu duruma karşı çıkanlar var. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Ekip üyelerini duruma ikna etmek için bir konuşma yapın.",
+                "next_question": 16,
+                "effects": [
+                    {
+                        "attribute": 3,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 4,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Ekipteki karşı çıkanları görmezden gelerek ilerleyin.",
+                "next_question": 17,
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": -1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "question": "Yerel türlerden uzak durduğunuz için yeni bir tehlike seziliyor. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Tüm ekibi savunma pozisyonuna geçirin.",
+                "next_question": 18,
+                "effects": [
+                    {
+                        "attribute": 6,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 5,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Durumu incelemek için bir grup gönderin.",
+                "next_question": 19,
+                "effects": [
+                    {
+                        "attribute": 5,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 2,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "question": "Ekip gemiye geri döndü ancak enerji kaynağı yetersiz. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Enerji tasarrufu için bazı sistemleri kapatın.",
+                "next_question": 20,
+                "effects": [
+                    {
+                        "attribute": 6,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 5,
+                        "value": -1
+                    }
+                ]
+            },
+            {
+                "text": "Yeni bir enerji kaynağı bulmak için daha uzak bir bölgeye gidin.",
+                "next_question": 21,
+                "effects": [
+                    {
+                        "attribute": 5,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 2,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "question": "Enerji kaynağını kurtarmak için ilerlediniz ancak kaynağı bir yerel tür koruyor. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Türle konuşup kaynağı paylaşmayı teklif edin.",
+                "next_question": 12,
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "text": "Türü zorla bölgeden uzaklaştırın.",
+                "next_question": 13,
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": -1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "question": "Yerel tür teklifi kabul etti ancak ekipte bu duruma itiraz edenler var. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Ekip üyelerine diplomatik çözümün önemini anlatın.",
+                "next_question": 14,
+                "effects": [
+                    {
+                        "attribute": 3,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 1,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "İtiraz edenleri görmezden gelerek yolunuza devam edin.",
+                "next_question": 15,
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 4,
+                        "value": -1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "question": "Yerel türü bölgeden uzaklaştırdınız ancak gemideki sistemler bozuldu. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Ekip üyelerinden bir tamir ekibi oluşturun.",
+                "next_question": 16,
+                "effects": [
+                    {
+                        "attribute": 5,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 6,
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "text": "Sistemleri onarmak için yerel kaynakları kullanın.",
+                "next_question": 17,
+                "effects": [
+                    {
+                        "attribute": 6,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 5,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "question": "Ekibiniz diplomatik çözümü anladı ve yerel türle daha güçlü bir bağ kuruldu. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Yerel türle ticari bir anlaşma yapmayı önerin.",
+                "next_question": 18,
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 6,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Bağımsız hareket etmeye devam edin.",
+                "next_question": 19,
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 5,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "question": "İtiraz edenleri görmezden geldiniz ancak ekipte bir bölünme yaşandı. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Ekipte bir toplantı düzenleyip herkesi birleştirmeye çalışın.",
+                "next_question": 20,
+                "effects": [
+                    {
+                        "attribute": 3,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Kararlı bir şekilde otoritenizi gösterin.",
+                "next_question": 21,
+                "effects": [
+                    {
+                        "attribute": 3,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": -1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "question": "Tamir ekibi başarılı oldu ancak tamir sırasında yeni bir tehdit belirlendi. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Ekip üyelerini tehditten uzaklaştırıp savunmaya geçin.",
+                "next_question": 22,
+                "effects": [
+                    {
+                        "attribute": 6,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 5,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Tehdidi araştırıp durumu anlamaya çalışın.",
+                "next_question": 23,
+                "effects": [
+                    {
+                        "attribute": 5,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 2,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "question": "Yerel kaynakları kullanarak sistemleri onardınız ancak kaynak sahibi tür sizden bir karşılık istiyor. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Türün talebini kabul edip işbirliği yapın.",
+                "next_question": 24,
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Türün talebini reddedip bağımsız hareket edin.",
+                "next_question": 25,
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 6,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "question": "Yerel türle ticari bir anlaşma yaptınız ancak diğer türler bu anlaşmaya karşı çıkıyor. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Diğer türlerle de diplomasi yapmayı deneyin.",
+                "next_question": 26,
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Anlaşmayı savunup ilerlemeye devam edin.",
+                "next_question": 27,
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 3,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "question": "Bağımsız hareket etmeye karar verdiniz ancak bu durum ekibinizdeki uyumu etkiledi. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Ekibe durumu açıklayıp desteklerini alın.",
+                "next_question": 28,
+                "effects": [
+                    {
+                        "attribute": 3,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Kararınızın doğru olduğunu vurgulayarak ilerleyin.",
+                "next_question": 29,
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 5,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "question": "Ekip toplantısı sonrası herkesi birleştirdiniz ancak ekip moralinde hala eksiklik var. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Bir süre mola verip ekibin toparlanmasını sağlayın.",
+                "next_question": 30,
+                "effects": [
+                    {
+                        "attribute": 4,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 6,
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "text": "Ekibe liderlik ederek hızla ilerleyin.",
+                "next_question": 30,
+                "effects": [
+                    {
+                        "attribute": 3,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 5,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "question": "Otoritenizi göstererek ilerlediniz ancak ekipte bazı üyeler huzursuzluk çıkardı. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Huzursuzluk çıkaranları disipline edin.",
+                "next_question": 22,
+                "effects": [
+                    {
+                        "attribute": 3,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": -1
+                    }
+                ]
+            },
+            {
+                "text": "Onlarla birebir konuşarak sorunlarını çözmeye çalışın.",
+                "next_question": 23,
+                "effects": [
+                    {
+                        "attribute": 4,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 3,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "question": "Disiplin sonucunda huzursuzluk azaldı, ancak ekipte bir güven problemi oluştu. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Ekibe güven aşılamak için bir motivasyon konuşması yapın.",
+                "next_question": 24,
+                "effects": [
+                    {
+                        "attribute": 3,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Problemi görmezden gelip ilerlemeye odaklanın.",
+                "next_question": 25,
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 5,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "question": "Konuşmalar sonrası ekip size güvenmeye başladı, ancak liderliğiniz sorgulanıyor. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Liderliğinizi göstermek için yeni bir hedef belirleyin.",
+                "next_question": 26,
+                "effects": [
+                    {
+                        "attribute": 3,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 5,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Ekipten destek alarak kararlarınızı paylaşın.",
+                "next_question": 27,
+                "effects": [
+                    {
+                        "attribute": 4,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 3,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "question": "Motivasyon konuşmanız ekibi bir araya getirdi, ancak yerel türlerle yeni bir çatışma riski ortaya çıktı. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Türlerle barışçıl bir görüşme yapın.",
+                "next_question": 28,
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Türlere karşı savunma hattı kurun.",
+                "next_question": 29,
+                "effects": [
+                    {
+                        "attribute": 6,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 2,
+                        "value": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "question": "Problemi görmezden geldiniz ve ilerlediniz, ancak kaynaklar hızla tükeniyor. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Yerel türlerden kaynak isteyin.",
+                "next_question": 30,
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Yeni bir keşif grubu göndererek kaynak arayın.",
+                "next_question": 30,
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 5,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "question": "Yeni hedefiniz ekipte heyecan yarattı, ancak hedefe ulaşmak için bir risk almanız gerekiyor. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Risk alarak hızla ilerleyin.",
+                "next_question": 30,
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 5,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Daha güvenli bir yol seçin.",
+                "next_question": 30,
+                "effects": [
+                    {
+                        "attribute": 6,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "question": "Kararlarınızı paylaşmanız ekibi güçlendirdi, ancak yerel türlerle bir anlaşmazlık ortaya çıktı. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Türlerle yeni bir anlaşma yapmaya çalışın.",
+                "next_question": 30,
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "text": "Türlere karşı kararlı bir duruş sergileyin.",
+                "next_question": 30,
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 6,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "question": "Barışçıl görüşme türlerin desteğini kazandırdı. Ekibinizin morali yükseldi. Ancak zaman daralıyor. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Türlerden yardım alarak hızla ilerleyin.",
+                "next_question": 30,
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 5,
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "text": "Ekibinizle bağımsız bir plan oluşturun.",
+                "next_question": 30,
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 6,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "question": "Savunma hattınız başarılı oldu, ancak düşman türlerle bir çatışma yaşandı. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Çatışmayı durdurmak için diplomatik bir çözüm arayın.",
+                "next_question": 30,
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Daha fazla savunma önlemi alarak ilerleyin.",
+                "next_question": 30,
+                "effects": [
+                    {
+                        "attribute": 6,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 5,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "question": "Sonunda koloni kurma hedefinize ulaştınız. Ancak bir karar vermeniz gerekiyor: Koloni tamamen bağımsız mı olmalı yoksa yerel türlerle bir birlik mi oluşturmalı?",
+        "options": [
+            {
+                "text": "Koloniyi tamamen bağımsız bir şekilde yönetin.",
+                "next_question": null,
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 6,
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "text": "Yerel türlerle bir birlik oluşturun.",
+                "next_question": null,
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": 2
+                    }
+                ]
+            }
+        ]
+    }
+]

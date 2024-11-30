@@ -1,0 +1,1022 @@
+[
+    {
+        "id": 1,
+        "question": "Ekip olarak ormanın girişindesiniz. Yolculuğa başlamadan önce ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Ekip üyelerine güven telkin eden bir konuşma yapın.",
+                "next_question": 2,
+                "effects": [
+                    {
+                        "attribute": 3,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 4,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Ekipmanlarınızı dikkatlice kontrol edin.",
+                "next_question": 3,
+                "effects": [
+                    {
+                        "attribute": 5,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 6,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "question": "Ekip size güveniyor, ancak ileride bir çatışma sesleri duyuyorsunuz. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Ekip üyelerini güvenli bir yere çekip durumu gözlemleyin.",
+                "next_question": 4,
+                "effects": [
+                    {
+                        "attribute": 5,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 4,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Çatışmayı durdurmak için hızlıca müdahale edin.",
+                "next_question": 5,
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 3,
+                        "value": -1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "question": "Ekipman kontrolü sırasında harita üzerinde iki farklı yol keşfettiniz. Hangi yolu seçersiniz?",
+        "options": [
+            {
+                "text": "Kolay gibi görünen ve sık kullanılan yolu seçin.",
+                "next_question": 6,
+                "effects": [
+                    {
+                        "attribute": 6,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 5,
+                        "value": -1
+                    }
+                ]
+            },
+            {
+                "text": "Zor ama kısaymış gibi görünen bir patikayı tercih edin.",
+                "next_question": 7,
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 5,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "question": "Gözlemleriniz sonucunda çatışmanın bir grup haydut tarafından çıkarıldığını fark ettiniz. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Haydutlarla diplomatik bir konuşma yapmaya çalışın.",
+                "next_question": 8,
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Ekip üyeleriyle koordineli bir saldırı planlayın.",
+                "next_question": 9,
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 5,
+                        "value": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "question": "Hızlı müdahalenizle haydutları püskürttünüz, ancak ekipten biri yaralandı. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "İlk yardım sağlayıp yolculuğa devam edin.",
+                "next_question": 10,
+                "effects": [
+                    {
+                        "attribute": 4,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 6,
+                        "value": -1
+                    }
+                ]
+            },
+            {
+                "text": "Bir süre kamp kurarak ekibin toparlanmasını bekleyin.",
+                "next_question": 11,
+                "effects": [
+                    {
+                        "attribute": 6,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 5,
+                        "value": -1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "question": "Kolay yolu seçtiniz, ancak ormanda yaşayan yerel bir toplulukla karşılaştınız. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Onlarla dostane bir şekilde iletişim kurmaya çalışın.",
+                "next_question": 12,
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "text": "Onlardan uzak durarak yolunuza devam edin.",
+                "next_question": 13,
+                "effects": [
+                    {
+                        "attribute": 5,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 6,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "question": "Zorlu patikayı seçtiniz ve vahşi bir hayvan saldırısıyla karşılaştınız. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Hayvanı uzaklaştırmak için bir strateji geliştirin.",
+                "next_question": 14,
+                "effects": [
+                    {
+                        "attribute": 5,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 2,
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "text": "Ekibinizle birlikte doğrudan mücadeleye girin.",
+                "next_question": 15,
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 3,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "question": "Haydutlarla diplomatik konuşmanız sonuç verdi ve sizi serbest bıraktılar. Ancak ekipte moral düşük. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Moral yükseltici bir konuşma yapın.",
+                "next_question": 16,
+                "effects": [
+                    {
+                        "attribute": 3,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 4,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Bir mola verip ekibin dinlenmesini sağlayın.",
+                "next_question": 17,
+                "effects": [
+                    {
+                        "attribute": 6,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 4,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "question": "Haydutlara saldırınız başarılı oldu ancak yiyecek stoğunuz azaldı. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Yerel bitkilerden faydalanarak yiyecek toplayın.",
+                "next_question": 18,
+                "effects": [
+                    {
+                        "attribute": 5,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 6,
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "text": "Yiyecek bulmak için çevrede avlanmaya çalışın.",
+                "next_question": 19,
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 5,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "question": "Ekibiniz toparlandı ve yola devam ediyorsunuz. Ancak bir büyülü fırtına yaklaşıyor. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Fırtınadan korunmak için bir mağara arayın.",
+                "next_question": 20,
+                "effects": [
+                    {
+                        "attribute": 5,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 6,
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "text": "Fırtınayı geçmek için bir barınak inşa edin.",
+                "next_question": 21,
+                "effects": [
+                    {
+                        "attribute": 6,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 5,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "question": "Ekibiniz kamp kurarak toparlandı ancak gece boyunca garip sesler duydunuz. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Ekip üyelerini güvenceye alarak sesi araştırmaya gidin.",
+                "next_question": 12,
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 5,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Etrafı dikkatlice izleyerek savunmada kalın.",
+                "next_question": 13,
+                "effects": [
+                    {
+                        "attribute": 5,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "question": "Sesin bir orman koruyucusuna ait olduğunu keşfettiniz. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Koruyucuyla dostane bir şekilde konuşmaya çalışın.",
+                "next_question": 14,
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "text": "Koruyucuyu görmezden gelip yolunuza devam edin.",
+                "next_question": 15,
+                "effects": [
+                    {
+                        "attribute": 5,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 6,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "question": "Savunmada kalarak sabaha kadar beklediniz, ancak bu sırada bir ekip üyesi kayboldu. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Kayıp ekip üyesini bulmak için bir arama ekibi oluşturun.",
+                "next_question": 16,
+                "effects": [
+                    {
+                        "attribute": 3,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 4,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Ekip üyelerini güvenli bir yere alarak beklemeye devam edin.",
+                "next_question": 17,
+                "effects": [
+                    {
+                        "attribute": 5,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 6,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "question": "Koruyucu size ormanın derinliklerindeki bir tehlikeyi anlattı. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Koruyucunun rehberliğinde ilerlemeye karar verin.",
+                "next_question": 18,
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 5,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Tehlikeyi dikkate almadan kendi planınıza sadık kalın.",
+                "next_question": 19,
+                "effects": [
+                    {
+                        "attribute": 6,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 2,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "question": "Koruyucuyu görmezden gelip ilerlediniz, ancak büyülü bir engelle karşılaştınız. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Engeli aşmak için ekipmanlarınızı kullanın.",
+                "next_question": 20,
+                "effects": [
+                    {
+                        "attribute": 5,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 6,
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "text": "Engeli çözmek için bir strateji geliştirin.",
+                "next_question": 21,
+                "effects": [
+                    {
+                        "attribute": 5,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 1,
+                        "value": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "question": "Arama sırasında kayıp ekip üyesinin bir çukurda olduğunu buldunuz. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Ekip üyesini kurtarmak için hemen harekete geçin.",
+                "next_question": 22,
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 3,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Etrafı kontrol ettikten sonra kurtarma planı yapın.",
+                "next_question": 23,
+                "effects": [
+                    {
+                        "attribute": 5,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 6,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "question": "Ekip üyelerini beklemeye aldınız, ancak bu sırada yiyecek stoğunuz azaldı. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Çevrede yenilebilir bitkiler arayın.",
+                "next_question": 24,
+                "effects": [
+                    {
+                        "attribute": 6,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 5,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Bir av ekibi oluşturarak yiyecek toplayın.",
+                "next_question": 25,
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 6,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "question": "Koruyucu sizi rehberliğinde güvenli bir bölgeye getirdi. Ancak tehlikenin hala yakında olduğunu söylüyor. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Koruyucuya teşekkür edip kendi yolunuza devam edin.",
+                "next_question": 26,
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 5,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Koruyucunun size eşlik etmesini isteyin.",
+                "next_question": 27,
+                "effects": [
+                    {
+                        "attribute": 4,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 1,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "question": "Tehlikeyi görmezden geldiniz, ancak bir büyücü tarafından durduruldunuz. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Büyücüyle konuşarak bir çözüm arayın.",
+                "next_question": 28,
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Büyücüyle mücadeleye girin.",
+                "next_question": 29,
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 3,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "question": "Büyülü engeli ekipmanlarınızı kullanarak aştınız, ancak ekipteki bir üye size karşı çıkıyor. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Ekip üyesiyle konuşarak durumunuzu anlatın.",
+                "next_question": 30,
+                "effects": [
+                    {
+                        "attribute": 3,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 4,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Ekip üyelerini ikna etmek için otoritenizi kullanın.",
+                "next_question": 30,
+                "effects": [
+                    {
+                        "attribute": 3,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": -1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "question": "Barınak inşa ettiniz, ancak fırtına sırasında başka bir grup kâşifle karşılaştınız. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Grupla dostane bir ilişki kurun.",
+                "next_question": 22,
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Grubu tehdit ederek onlardan bilgi alın.",
+                "next_question": 23,
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 3,
+                        "value": -1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "question": "Grupla kurduğunuz dostane ilişkiler sonucu büyülü taşın konumu hakkında bilgi aldınız. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Güvenli bir yol seçerek taşın olduğu yere gidin.",
+                "next_question": 24,
+                "effects": [
+                    {
+                        "attribute": 5,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 6,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Daha hızlı bir yol seçerek ilerleyin.",
+                "next_question": 25,
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 5,
+                        "value": -1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "question": "Tehdit sonucu bilgiler aldınız ancak grup size karşı düşman oldu. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Onlarla bir çatışmaya girin.",
+                "next_question": 26,
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 3,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Bilgileri alıp hızla uzaklaşın.",
+                "next_question": 27,
+                "effects": [
+                    {
+                        "attribute": 5,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 6,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "question": "Taşa doğru ilerlerken bir yerel koruyucu tarafından durduruldunuz. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Koruyucu ile müzakere edin.",
+                "next_question": 28,
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Koruyucu ile mücadele edin.",
+                "next_question": 29,
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 3,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "question": "Hızlı bir yol seçtiniz ancak taşın koruyucusu tarafından tuzağa düşürüldünüz. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Koruyucuyu ikna etmeye çalışın.",
+                "next_question": 30,
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Koruyucudan kaçarak taşın olduğu yere ulaşmaya çalışın.",
+                "next_question": 30,
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 5,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "question": "Grupla olan çatışmayı kazandınız ancak yaralılarınız var. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Yaralıları tedavi edip ilerlemeye devam edin.",
+                "next_question": 30,
+                "effects": [
+                    {
+                        "attribute": 4,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 6,
+                        "value": -1
+                    }
+                ]
+            },
+            {
+                "text": "Taşa ulaşmayı önceliklendirin ve ilerlemeye devam edin.",
+                "next_question": 30,
+                "effects": [
+                    {
+                        "attribute": 5,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 2,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "question": "Bilgilerle hızla uzaklaştınız ancak yolunuzda büyülü bir engelle karşılaştınız. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Engeli aşmak için strateji geliştirin.",
+                "next_question": 30,
+                "effects": [
+                    {
+                        "attribute": 5,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 1,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Ekipmanlarınızı kullanarak engeli çözün.",
+                "next_question": 30,
+                "effects": [
+                    {
+                        "attribute": 6,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 5,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "question": "Koruyucuyla müzakere ettiniz ve taşın gerçek yerini öğrendiniz. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Koruyucuya teşekkür edip ilerleyin.",
+                "next_question": 30,
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 5,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Koruyucunun teklifini reddedip kendi planınıza devam edin.",
+                "next_question": 30,
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 6,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "question": "Koruyucu ile olan mücadeleyi kazandınız ancak ekip moralini kaybetti. Ne yapacaksınız?",
+        "options": [
+            {
+                "text": "Ekip üyelerine moral veren bir konuşma yapın.",
+                "next_question": 30,
+                "effects": [
+                    {
+                        "attribute": 3,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 4,
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "text": "Taşa ulaşmayı önceliklendirin ve hızla ilerleyin.",
+                "next_question": 30,
+                "effects": [
+                    {
+                        "attribute": 5,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 2,
+                        "value": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "question": "Sonunda büyülü taşa ulaştınız. Ancak taş bir seçim yapmanızı istiyor: Ekibinizin güvenliğini mi yoksa taşın gücünü mü tercih edeceksiniz?",
+        "options": [
+            {
+                "text": "Ekibinizin güvenliğini seçin ve taşın gücünden vazgeçin.",
+                "next_question": null,
+                "effects": [
+                    {
+                        "attribute": 4,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 3,
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "text": "Taşın gücünü seçin ve ekibinizi riske atın.",
+                "next_question": null,
+                "effects": [
+                    {
+                        "attribute": 5,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 2,
+                        "value": 2
+                    }
+                ]
+            }
+        ]
+    }
+]

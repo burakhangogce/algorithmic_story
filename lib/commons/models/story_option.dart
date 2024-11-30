@@ -1,4 +1,4 @@
-import 'package:algorithmic_story/models/story_effect.dart';
+import 'package:algorithmic_story/commons/models/story_effect.dart';
 
 class StoryOption {
   final String text;
