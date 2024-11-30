@@ -1,7 +1,9 @@
+import 'package:algorithmic_story/models/story_effect.dart';
+
 class StoryOption {
   final String text;
   final int? nextQuestion;
-  final Map<String, int> effects;
+  final List<StoryEffect> effects;
 
   StoryOption({
     required this.text,
@@ -13,7 +15,7 @@ class StoryOption {
     return StoryOption(
       text: json['text'],
       nextQuestion: json['next_question'],
-      effects: Map<String, int>.from(json['effects']),
+      effects: (json['effects'] as List).map((effect) => StoryEffect.fromJson(effect)).toList(),
     );
   }
 
@@ -21,7 +23,7 @@ class StoryOption {
     return {
       'text': text,
       'next_question': nextQuestion,
-      'effects': effects,
+      'effects': effects.map((effect) => effect.toJson()).toList(),
     };
   }
 }

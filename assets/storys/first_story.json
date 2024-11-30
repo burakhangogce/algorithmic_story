@@ -6,18 +6,30 @@
             {
                 "text": "Ordunuzu sınırda konumlandırın.",
                 "next_question": 2,
-                "effects": {
-                    "courage": 2,
-                    "diplomacy": -1
-                }
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 1,
+                        "value": -1
+                    }
+                ]
             },
             {
                 "text": "Diplomatik bir çözüm için elçi gönderin.",
                 "next_question": 3,
-                "effects": {
-                    "diplomacy": 3,
-                    "courage": -1
-                }
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 2,
+                        "value": -1
+                    }
+                ]
             }
         ]
     },
@@ -28,18 +40,30 @@
             {
                 "text": "Saldırıya geçin.",
                 "next_question": 4,
-                "effects": {
-                    "courage": 3,
-                    "strategic_thinking": -2
-                }
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 5,
+                        "value": -2
+                    }
+                ]
             },
             {
                 "text": "Savunmada kalıp barış teklifi sunun.",
                 "next_question": 5,
-                "effects": {
-                    "diplomacy": 3,
-                    "courage": -1
-                }
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 2,
+                        "value": -1
+                    }
+                ]
             }
         ]
     },
@@ -50,18 +74,30 @@
             {
                 "text": "Şartları kabul edin.",
                 "next_question": 6,
-                "effects": {
-                    "diplomacy": 3,
-                    "independence": -2
-                }
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 7,
+                        "value": -2
+                    }
+                ]
             },
             {
                 "text": "Şartları reddedin ve sınırı savunun.",
                 "next_question": 7,
-                "effects": {
-                    "courage": 3,
-                    "diplomacy": -2
-                }
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 1,
+                        "value": -2
+                    }
+                ]
             }
         ]
     },
@@ -72,18 +108,30 @@
             {
                 "text": "Zorunlu askerlik ilan edin.",
                 "next_question": 8,
-                "effects": {
-                    "leadership": 3,
-                    "empathy": -2
-                }
+                "effects": [
+                    {
+                        "attribute": 3,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": -2
+                    }
+                ]
             },
             {
                 "text": "Gönüllü asker toplama kampanyası başlatın.",
                 "next_question": 9,
-                "effects": {
-                    "empathy": 3,
-                    "leadership": -1
-                }
+                "effects": [
+                    {
+                        "attribute": 4,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 3,
+                        "value": -1
+                    }
+                ]
             }
         ]
     },
@@ -94,18 +142,30 @@
             {
                 "text": "Sınır savunmasını güçlendirin.",
                 "next_question": 10,
-                "effects": {
-                    "strategic_thinking": 2,
-                    "economic_foresight": -1
-                }
+                "effects": [
+                    {
+                        "attribute": 5,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 6,
+                        "value": -1
+                    }
+                ]
             },
             {
                 "text": "Sınırdaki halkı başka bir bölgeye taşıyın.",
                 "next_question": 11,
-                "effects": {
-                    "empathy": 3,
-                    "economic_foresight": -2
-                }
+                "effects": [
+                    {
+                        "attribute": 4,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 6,
+                        "value": -2
+                    }
+                ]
             }
         ]
     },
@@ -116,18 +176,30 @@
             {
                 "text": "Barış şartlarını halka açıklayın.",
                 "next_question": 12,
-                "effects": {
-                    "diplomacy": 3,
-                    "leadership": 2
-                }
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 3,
+                        "value": 2
+                    }
+                ]
             },
             {
                 "text": "Şartlara karşı bir çözüm önerin.",
                 "next_question": 13,
-                "effects": {
-                    "strategic_thinking": 2,
-                    "diplomacy": -1
-                }
+                "effects": [
+                    {
+                        "attribute": 5,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 1,
+                        "value": -1
+                    }
+                ]
             }
         ]
     },
@@ -138,18 +210,30 @@
             {
                 "text": "Vergileri artırın.",
                 "next_question": 14,
-                "effects": {
-                    "economic_foresight": 3,
-                    "empathy": -1
-                }
+                "effects": [
+                    {
+                        "attribute": 6,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": -1
+                    }
+                ]
             },
             {
                 "text": "Müttefiklerden borç alın.",
                 "next_question": 15,
-                "effects": {
-                    "diplomacy": 2,
-                    "independence": -2
-                }
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 2
+                    },
+                    {
+                        "attribute": 7,
+                        "value": -2
+                    }
+                ]
             }
         ]
     },
@@ -160,18 +244,30 @@
             {
                 "text": "Halka durumu açıklayın.",
                 "next_question": 16,
-                "effects": {
-                    "diplomacy": 3,
-                    "leadership": 2
-                }
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 3,
+                        "value": 2
+                    }
+                ]
             },
             {
                 "text": "Huzursuzluğu bastırmak için sert tedbirler alın.",
                 "next_question": 17,
-                "effects": {
-                    "leadership": 3,
-                    "empathy": -2
-                }
+                "effects": [
+                    {
+                        "attribute": 3,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": -2
+                    }
+                ]
             }
         ]
     },
@@ -182,18 +278,30 @@
             {
                 "text": "Yeni vergiler koyun.",
                 "next_question": 18,
-                "effects": {
-                    "economic_foresight": 3,
-                    "empathy": -1
-                }
+                "effects": [
+                    {
+                        "attribute": 6,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": -1
+                    }
+                ]
             },
             {
                 "text": "Ticaret yollarını genişletin.",
                 "next_question": 19,
-                "effects": {
-                    "strategic_thinking": 3,
-                    "economic_foresight": -1
-                }
+                "effects": [
+                    {
+                        "attribute": 5,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 6,
+                        "value": -1
+                    }
+                ]
             }
         ]
     },
@@ -204,40 +312,64 @@
             {
                 "text": "Halka kraliyet hazinesinden destek sağlayın.",
                 "next_question": 20,
-                "effects": {
-                    "empathy": 3,
-                    "economic_foresight": -2
-                }
+                "effects": [
+                    {
+                        "attribute": 4,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 6,
+                        "value": -2
+                    }
+                ]
             },
             {
                 "text": "Yeni ticaret ortaklıkları kurun.",
                 "next_question": 21,
-                "effects": {
-                    "strategic_thinking": 3,
-                    "diplomacy": 2
-                }
+                "effects": [
+                    {
+                        "attribute": 5,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 1,
+                        "value": 2
+                    }
+                ]
             }
         ]
     },
     {
         "id": 11,
-        "question": "Halkın başka bir bölgeye taşınması sırasında bazı isyanlar başladı. Ne yapacaksınız?",
+        "question": "Halkın başka bir bölgeye taşınması sırasında isyanlar başladı. Ne yapacaksınız?",
         "options": [
             {
                 "text": "İsyancılara sert önlemler uygulayın.",
                 "next_question": 12,
-                "effects": {
-                    "leadership": 3,
-                    "empathy": -2
-                }
+                "effects": [
+                    {
+                        "attribute": 3,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": -2
+                    }
+                ]
             },
             {
                 "text": "İsyancılarla müzakere yaparak bir çözüm arayın.",
                 "next_question": 13,
-                "effects": {
-                    "diplomacy": 3,
-                    "leadership": -1
-                }
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 3,
+                        "value": -1
+                    }
+                ]
             }
         ]
     },
@@ -248,18 +380,30 @@
             {
                 "text": "Halkı yatıştırmak için destek programları başlatın.",
                 "next_question": 14,
-                "effects": {
-                    "empathy": 3,
-                    "economic_foresight": -2
-                }
+                "effects": [
+                    {
+                        "attribute": 4,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 6,
+                        "value": -2
+                    }
+                ]
             },
             {
                 "text": "Otoriteyi artırmak için yeni yasalar çıkarın.",
                 "next_question": 15,
-                "effects": {
-                    "leadership": 3,
-                    "empathy": -1
-                }
+                "effects": [
+                    {
+                        "attribute": 3,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": -1
+                    }
+                ]
             }
         ]
     },
@@ -270,18 +414,30 @@
             {
                 "text": "Hızlı bir karşı saldırı başlatın.",
                 "next_question": 16,
-                "effects": {
-                    "courage": 3,
-                    "strategic_thinking": -1
-                }
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 5,
+                        "value": -1
+                    }
+                ]
             },
             {
-                "text": "Sınırda güçlü savunma hattı oluşturun.",
+                "text": "Sınırda güçlü bir savunma hattı oluşturun.",
                 "next_question": 17,
-                "effects": {
-                    "strategic_thinking": 3,
-                    "economic_foresight": -1
-                }
+                "effects": [
+                    {
+                        "attribute": 5,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 6,
+                        "value": -1
+                    }
+                ]
             }
         ]
     },
@@ -292,18 +448,30 @@
             {
                 "text": "Vergileri artırarak bütçeyi dengeleyin.",
                 "next_question": 18,
-                "effects": {
-                    "economic_foresight": 3,
-                    "empathy": -1
-                }
+                "effects": [
+                    {
+                        "attribute": 6,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": -1
+                    }
+                ]
             },
             {
                 "text": "Müttefiklerden ekonomik yardım isteyin.",
                 "next_question": 19,
-                "effects": {
-                    "diplomacy": 3,
-                    "independence": -2
-                }
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 7,
+                        "value": -2
+                    }
+                ]
             }
         ]
     },
@@ -314,18 +482,30 @@
             {
                 "text": "Soyluları ikna etmek için toplantılar düzenleyin.",
                 "next_question": 20,
-                "effects": {
-                    "diplomacy": 3,
-                    "leadership": 2
-                }
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 3,
+                        "value": 2
+                    }
+                ]
             },
             {
-                "text": "Soyluların gücünü sınırlamak için daha katı önlemler alın.",
+                "text": "Soyluların gücünü sınırlamak için sert tedbirler alın.",
                 "next_question": 21,
-                "effects": {
-                    "leadership": 3,
-                    "diplomacy": -1
-                }
+                "effects": [
+                    {
+                        "attribute": 3,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 1,
+                        "value": -1
+                    }
+                ]
             }
         ]
     },
@@ -336,18 +516,30 @@
             {
                 "text": "Yeni asker toplamak için kampanyalar başlatın.",
                 "next_question": 22,
-                "effects": {
-                    "leadership": 3,
-                    "empathy": -1
-                }
+                "effects": [
+                    {
+                        "attribute": 3,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": -1
+                    }
+                ]
             },
             {
                 "text": "Halktan yardım isteyerek savunma için gönüllüler toplayın.",
                 "next_question": 23,
-                "effects": {
-                    "empathy": 3,
-                    "leadership": -1
-                }
+                "effects": [
+                    {
+                        "attribute": 4,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 3,
+                        "value": -1
+                    }
+                ]
             }
         ]
     },
@@ -358,18 +550,30 @@
             {
                 "text": "Hızlı bir şekilde birliklerinizi yeni saldırı bölgesine kaydırın.",
                 "next_question": 24,
-                "effects": {
-                    "strategic_thinking": 3,
-                    "courage": 2
-                }
+                "effects": [
+                    {
+                        "attribute": 5,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 2,
+                        "value": 2
+                    }
+                ]
             },
             {
                 "text": "Düşmanın saldırı hattını kesmek için bir pusu düzenleyin.",
                 "next_question": 25,
-                "effects": {
-                    "courage": 3,
-                    "strategic_thinking": 1
-                }
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 5,
+                        "value": 1
+                    }
+                ]
             }
         ]
     },
@@ -380,18 +584,30 @@
             {
                 "text": "Vergileri düşürüp ticareti artırmaya odaklanın.",
                 "next_question": 26,
-                "effects": {
-                    "economic_foresight": 3,
-                    "diplomacy": 2
-                }
+                "effects": [
+                    {
+                        "attribute": 6,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 1,
+                        "value": 2
+                    }
+                ]
             },
             {
                 "text": "Vergileri savunarak uzun vadeli bir plan açıklayın.",
                 "next_question": 27,
-                "effects": {
-                    "leadership": 3,
-                    "empathy": -1
-                }
+                "effects": [
+                    {
+                        "attribute": 3,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": -1
+                    }
+                ]
             }
         ]
     },
@@ -402,18 +618,30 @@
             {
                 "text": "Ekonomik bağımsızlığı güçlendirmek için reformlar başlatın.",
                 "next_question": 28,
-                "effects": {
-                    "independence": 3,
-                    "economic_foresight": -1
-                }
+                "effects": [
+                    {
+                        "attribute": 7,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 6,
+                        "value": -1
+                    }
+                ]
             },
             {
                 "text": "Müttefiklerle daha sıkı ilişkiler kurarak eleştirileri görmezden gelin.",
                 "next_question": 29,
-                "effects": {
-                    "diplomacy": 3,
-                    "independence": -2
-                }
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 7,
+                        "value": -2
+                    }
+                ]
             }
         ]
     },
@@ -424,18 +652,30 @@
             {
                 "text": "Halkın güvenini yeniden kazanmak için liderlik kampanyaları düzenleyin.",
                 "next_question": 30,
-                "effects": {
-                    "empathy": 3,
-                    "leadership": 2
-                }
+                "effects": [
+                    {
+                        "attribute": 4,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 3,
+                        "value": 2
+                    }
+                ]
             },
             {
                 "text": "Otoritenizi artırmak için sert tedbirler alın.",
                 "next_question": 30,
-                "effects": {
-                    "leadership": 3,
-                    "empathy": -2
-                }
+                "effects": [
+                    {
+                        "attribute": 3,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": -2
+                    }
+                ]
             }
         ]
     },
@@ -446,18 +686,30 @@
             {
                 "text": "Soylularla anlaşma yaparak isyanı yatıştırın.",
                 "next_question": 22,
-                "effects": {
-                    "diplomacy": 3,
-                    "leadership": -1
-                }
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 3,
+                        "value": -1
+                    }
+                ]
             },
             {
                 "text": "İsyanı bastırmak için orduyu kullanın.",
                 "next_question": 23,
-                "effects": {
-                    "courage": 3,
-                    "empathy": -2
-                }
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": -2
+                    }
+                ]
             }
         ]
     },
@@ -468,18 +720,30 @@
             {
                 "text": "Halkla toplantılar düzenleyerek durumu açıklayın.",
                 "next_question": 24,
-                "effects": {
-                    "empathy": 3,
-                    "diplomacy": 2
-                }
+                "effects": [
+                    {
+                        "attribute": 4,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 1,
+                        "value": 2
+                    }
+                ]
             },
             {
                 "text": "Soylularla yapılan anlaşmayı yeniden müzakere edin.",
                 "next_question": 25,
-                "effects": {
-                    "diplomacy": 3,
-                    "strategic_thinking": 1
-                }
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 5,
+                        "value": 1
+                    }
+                ]
             }
         ]
     },
@@ -490,18 +754,30 @@
             {
                 "text": "Halka güvence veren reformlar başlatın.",
                 "next_question": 26,
-                "effects": {
-                    "empathy": 3,
-                    "leadership": 2
-                }
+                "effects": [
+                    {
+                        "attribute": 4,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 3,
+                        "value": 2
+                    }
+                ]
             },
             {
                 "text": "Halkı kontrol altında tutmak için yeni yasalar çıkarın.",
                 "next_question": 27,
-                "effects": {
-                    "leadership": 3,
-                    "empathy": -1
-                }
+                "effects": [
+                    {
+                        "attribute": 3,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": -1
+                    }
+                ]
             }
         ]
     },
@@ -512,18 +788,30 @@
             {
                 "text": "Ticaret yollarını genişleterek ekonomiyi canlandırın.",
                 "next_question": 28,
-                "effects": {
-                    "economic_foresight": 3,
-                    "diplomacy": 2
-                }
+                "effects": [
+                    {
+                        "attribute": 6,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 1,
+                        "value": 2
+                    }
+                ]
             },
             {
                 "text": "Vergileri artırarak kaynakları artırın.",
                 "next_question": 29,
-                "effects": {
-                    "economic_foresight": 3,
-                    "empathy": -1
-                }
+                "effects": [
+                    {
+                        "attribute": 6,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 4,
+                        "value": -1
+                    }
+                ]
             }
         ]
     },
@@ -534,18 +822,30 @@
             {
                 "text": "Soyluların gücünü tamamen sınırlayın.",
                 "next_question": 30,
-                "effects": {
-                    "leadership": 3,
-                    "diplomacy": -1
-                }
+                "effects": [
+                    {
+                        "attribute": 3,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 1,
+                        "value": -1
+                    }
+                ]
             },
             {
                 "text": "Soylulara yeni imtiyazlar vererek sorunu çözün.",
                 "next_question": 30,
-                "effects": {
-                    "diplomacy": 3,
-                    "leadership": -2
-                }
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 3,
+                        "value": -2
+                    }
+                ]
             }
         ]
     },
@@ -556,18 +856,30 @@
             {
                 "text": "Ordunuzu güçlendirerek savunma hattını hazırlayın.",
                 "next_question": 27,
-                "effects": {
-                    "courage": 3,
-                    "strategic_thinking": 2
-                }
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 5,
+                        "value": 2
+                    }
+                ]
             },
             {
                 "text": "Barış müzakereleri başlatmayı deneyin.",
                 "next_question": 28,
-                "effects": {
-                    "diplomacy": 3,
-                    "strategic_thinking": -1
-                }
+                "effects": [
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 5,
+                        "value": -1
+                    }
+                ]
             }
         ]
     },
@@ -578,18 +890,30 @@
             {
                 "text": "Ordunuzu yeniden konuşlandırarak düşmanı durdurun.",
                 "next_question": 29,
-                "effects": {
-                    "strategic_thinking": 3,
-                    "courage": 2
-                }
+                "effects": [
+                    {
+                        "attribute": 5,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 2,
+                        "value": 2
+                    }
+                ]
             },
             {
                 "text": "Halkı koruma önceliğiyle savunmayı geri çekin.",
                 "next_question": 30,
-                "effects": {
-                    "empathy": 3,
-                    "strategic_thinking": -1
-                }
+                "effects": [
+                    {
+                        "attribute": 4,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 5,
+                        "value": -1
+                    }
+                ]
             }
         ]
     },
@@ -600,18 +924,30 @@
             {
                 "text": "Düşmana karşı tam ölçekli bir savaş başlatın.",
                 "next_question": 30,
-                "effects": {
-                    "courage": 3,
-                    "leadership": 2
-                }
+                "effects": [
+                    {
+                        "attribute": 2,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 3,
+                        "value": 2
+                    }
+                ]
             },
             {
                 "text": "Savaşı geciktirmek için taktiksel bir geri çekilme yapın.",
                 "next_question": 29,
-                "effects": {
-                    "strategic_thinking": 3,
-                    "courage": -1
-                }
+                "effects": [
+                    {
+                        "attribute": 5,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 2,
+                        "value": -1
+                    }
+                ]
             }
         ]
     },
@@ -622,18 +958,30 @@
             {
                 "text": "Halkı güvence altına almak için acil durum önlemleri alın.",
                 "next_question": 30,
-                "effects": {
-                    "empathy": 3,
-                    "leadership": 2
-                }
+                "effects": [
+                    {
+                        "attribute": 4,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 3,
+                        "value": 2
+                    }
+                ]
             },
             {
                 "text": "Tüm kaynakları seferber ederek karşı saldırı planlayın.",
                 "next_question": 30,
-                "effects": {
-                    "strategic_thinking": 3,
-                    "courage": 2
-                }
+                "effects": [
+                    {
+                        "attribute": 5,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 2,
+                        "value": 2
+                    }
+                ]
             }
         ]
     },
@@ -644,18 +992,30 @@
             {
                 "text": "Halkın desteğini kazanmak için reform programları başlatın.",
                 "next_question": null,
-                "effects": {
-                    "empathy": 3,
-                    "diplomacy": 3
-                }
+                "effects": [
+                    {
+                        "attribute": 4,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 1,
+                        "value": 3
+                    }
+                ]
             },
             {
                 "text": "Otoriteyi artırmak için yeni bir yönetim sistemi oluşturun.",
                 "next_question": null,
-                "effects": {
-                    "leadership": 3,
-                    "strategic_thinking": 2
-                }
+                "effects": [
+                    {
+                        "attribute": 3,
+                        "value": 3
+                    },
+                    {
+                        "attribute": 5,
+                        "value": 2
+                    }
+                ]
             }
         ]
     }

@@ -1,6 +1,8 @@
 import 'package:algorithmic_story/models/story_option.dart';
 import 'package:algorithmic_story/models/story_question.dart';
 import 'package:algorithmic_story/modules/game/controllers/game_controller.dart';
+import 'package:algorithmic_story/modules/result/controllers/result_controller.dart';
+import 'package:algorithmic_story/modules/result/screens/result_page.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -11,6 +13,7 @@ class GamePage extends StatelessWidget {
   Widget build(BuildContext context) {
     GameController controller = context.read<GameController>();
     return Scaffold(
+      appBar: AppBar(),
       body: SafeArea(
         child: SingleChildScrollView(
           child: Padding(
@@ -73,9 +76,25 @@ class GamePage extends StatelessWidget {
                                   itemBuilder: (BuildContext context, int index) {
                                     StoryOption option = item.options[index];
                                     return GestureDetector(
-                                      onTap: () => controller.setCurrentQuestion(
-                                        option.nextQuestion ?? 0,
-                                      ),
+                                      onTap: () {
+                                        if (option.nextQuestion != null) {
+                                          controller.answer(
+                                            option,
+                                          );
+                                        } else {
+                                          Navigator.pushReplacement(
+                                            context,
+                                            MaterialPageRoute(
+                                              builder: (_) => ChangeNotifierProvider(
+                                                create: (context) => ResultController(
+                                                  controller.attributes,
+                                                ),
+                                                child: const ResultPage(),
+                                              ),
+                                            ),
+                                          );
+                                        }
+                                      },
                                       child: Padding(
                                         padding: const EdgeInsets.symmetric(vertical: 12),
                                         child: Row(
