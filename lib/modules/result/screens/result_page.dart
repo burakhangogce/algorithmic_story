@@ -19,7 +19,7 @@ class ResultPage extends StatelessWidget {
                 child: Center(
                   child: Text(
                     controller.generateCharacterAnalysis(),
-                    style: const TextStyle(fontSize: 19, fontWeight: FontWeight.w700),
+                    style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w700),
                   ),
                 ),
               ),
