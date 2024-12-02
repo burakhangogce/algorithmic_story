@@ -58,10 +58,12 @@ class GamePage extends StatelessWidget {
                     }
                     if (snapshot.hasData) {
                       if (controller.listData.isNotEmpty) {
-                        return Consumer<GameController>(builder: (BuildContext context, controller, Widget? child) {
-                          if (controller.listData.any((e) => e.id == controller.currentQuestion)) {
-                            StoryQuestion item =
-                                controller.listData.firstWhere((e) => e.id == controller.currentQuestion);
+                        return Consumer<GameController>(builder:
+                            (BuildContext context, controller, Widget? child) {
+                          if (controller.listData
+                              .any((e) => e.id == controller.currentQuestion)) {
+                            StoryQuestion item = controller.listData.firstWhere(
+                                (e) => e.id == controller.currentQuestion);
                             return Column(
                               children: [
                                 Text(
@@ -77,7 +79,8 @@ class GamePage extends StatelessWidget {
                                 ListView.builder(
                                   itemCount: item.options.length,
                                   shrinkWrap: true,
-                                  itemBuilder: (BuildContext context, int index) {
+                                  itemBuilder:
+                                      (BuildContext context, int index) {
                                     StoryOption option = item.options[index];
                                     return GestureDetector(
                                       onTap: () {
@@ -89,8 +92,10 @@ class GamePage extends StatelessWidget {
                                           Navigator.pushReplacement(
                                             context,
                                             MaterialPageRoute(
-                                              builder: (_) => ChangeNotifierProvider(
-                                                create: (context) => ResultController(
+                                              builder: (_) =>
+                                                  ChangeNotifierProvider(
+                                                create: (context) =>
+                                                    ResultController(
                                                   controller.attributes,
                                                 ),
                                                 child: const ResultPage(),
@@ -100,28 +105,49 @@ class GamePage extends StatelessWidget {
                                         }
                                       },
                                       child: Padding(
-                                        padding: const EdgeInsets.symmetric(vertical: 12),
-                                        child: Row(
-                                          children: [
-                                            Text(
-                                              index == 0 ? "A-) " : "B-) ",
-                                              style: const TextStyle(
-                                                fontSize: 18,
-                                                fontWeight: FontWeight.w700,
-                                              ),
+                                        padding: const EdgeInsets.symmetric(
+                                            vertical: 12),
+                                        child: Container(
+                                          decoration: BoxDecoration(
+                                            color: Theme.of(context)
+                                                .colorScheme
+                                                .surfaceContainer,
+                                            borderRadius:
+                                                BorderRadius.circular(12),
+                                          ),
+                                          child: Padding(
+                                            padding: const EdgeInsets.symmetric(
+                                              vertical: 8,
+                                              horizontal: 12,
                                             ),
-                                            Flexible(
-                                              child: Text(
-                                                option.text,
-                                                style: const TextStyle(
-                                                  fontSize: 18,
-                                                  fontWeight: FontWeight.w400,
+                                            child: Row(
+                                              children: [
+                                                Text(
+                                                  index == 0 ? "A-) " : "B-) ",
+                                                  style: TextStyle(
+                                                    fontSize: 18,
+                                                    fontWeight: FontWeight.w700,
+                                                    color: Theme.of(context)
+                                                        .colorScheme
+                                                        .onSurface,
+                                                  ),
                                                 ),
-                                                overflow: TextOverflow.ellipsis,
-                                                maxLines: 5,
-                                              ),
+                                                Flexible(
+                                                  child: Text(
+                                                    option.text,
+                                                    style: const TextStyle(
+                                                      fontSize: 18,
+                                                      fontWeight:
+                                                          FontWeight.w400,
+                                                    ),
+                                                    overflow:
+                                                        TextOverflow.ellipsis,
+                                                    maxLines: 5,
+                                                  ),
+                                                ),
+                                              ],
                                             ),
-                                          ],
+                                          ),
                                         ),
                                       ),
                                     );

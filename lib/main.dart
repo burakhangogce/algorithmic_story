@@ -29,7 +29,7 @@ class MainApp extends StatelessWidget {
         child: const BoardingPage(),
       ),
       debugShowCheckedModeBanner: false,
-      theme: brightness == Brightness.light ? theme.light() : theme.dark(),
+      theme: brightness == Brightness.dark ? theme.light() : theme.dark(),
     );
   }
 }
